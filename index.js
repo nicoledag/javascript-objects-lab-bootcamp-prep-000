@@ -23,7 +23,6 @@ return key;
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key){
-
-  delete obj[key];
-  return key;
+delete obj[key];
+return key;
 }
