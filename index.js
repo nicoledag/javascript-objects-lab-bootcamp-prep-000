@@ -20,6 +20,6 @@ function deleteFromObjectByKey(object, key){
 
 var obj = { prop: 1 }
 var newObj = deleteFromObjectByKey(obj, 'prop')
-delete newObj.key
 
 }
+delete newObj.key
