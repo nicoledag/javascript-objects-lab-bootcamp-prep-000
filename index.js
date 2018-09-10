@@ -23,4 +23,3 @@ delete newObj.key
 
 var obj = { prop: 1 }
 var newObj = deleteFromObjectByKey(obj, 'prop')
-
